@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  position: relative;
+  background: #888;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  /* list-style: none; */
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+  display: block;
+}
+
+ul li:hover {
+  background: #b2b2b2;
+}
+
+ul ul {
+  position: absolute;
+  min-width: 200px;
+  display: none;
+  background: #b2b2b2;
+}
+
+ul ul li {
+  display: block;
+  background: #e3e3e3;
+}
+
+ul li:hover ul {
+  display: block;
+}
